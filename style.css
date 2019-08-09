@@ -260,6 +260,10 @@ img.recipe-image {
       width: 100%;
       padding-left: 0px !important;
   }
+
+  a.blog-header-logo.text-dark {
+    font-size: 20px !important;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
