@@ -345,7 +345,11 @@ h3.pb-3.pt-3.mb-4.font-italic.border-bottom {
   }
 
   div.card.mb-4.shadow-sm.short {
-    height: 700px !important;
+    height: 685px !important;
+  }
+
+  div.card.mb-4.shadow-sm {
+    height: 1000px !important;
   }
 
   .about-photo-2 {
@@ -368,5 +372,15 @@ h3.pb-3.pt-3.mb-4.font-italic.border-bottom {
   img.bd-placeholder-img.img-2.about-photo {
       padding-left: 40px;
       width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+  div.card.mb-4.shadow-sm.short {
+    height: 1100px !important;
+  }
+
+  div.card.mb-4.shadow-sm {
+    height: 1450px !important;
   }
 }
