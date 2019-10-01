@@ -8,11 +8,17 @@ h2 {
 }
 
 div.card.mb-4.shadow-sm.short {
-  height: 750px !important;
+  height: 725px !important;
 }
 
 div.card.mb-4.shadow-sm.workout {
-  height: 400px !important;
+  height: 375px !important;
+}
+
+@media (max-width: 1000px) {
+  div.card-body-video {
+    height: 15px
+  }
 }
 
 .btn-info {
@@ -73,6 +79,13 @@ img.bd-placeholder-img.img-2.about-photo {
   padding-top: 20px;
   padding-left: 30px;
   padding-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+  .about-photo-2 {
+    padding-left: 0px;
+    margin: auto;
+  }
 }
 
 .display-4 {
