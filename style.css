@@ -1,4 +1,4 @@
-/* stylelint-disable selector-list-comma-newline-after */
+/* stylelint-disable selector-list-comma-newline-after testing */
 h2 {
   margin-bottom: 10px;
 }
@@ -342,7 +342,8 @@ h3.pb-3.pt-3.mb-4.font-italic.border-bottom {
   height: 75px;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
+
   img.bd-placeholder-img.img-2.about-photo {
       float: none !important;
       display: block;
@@ -378,6 +379,9 @@ h3.pb-3.pt-3.mb-4.font-italic.border-bottom {
   a.p-2.text-muted {
     margin-top: 1%;
     font-size: 12px;
+  }
+  img.banner-team {
+    width: 100% !important;
   }
 }
 
